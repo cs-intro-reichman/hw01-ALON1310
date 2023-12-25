@@ -6,7 +6,6 @@ public class GenThree {
 	int c = Math.min(a,b);	
 	int d = Math.max(a,b); 
 
-
 	int num1 = (int)( (Math.random() * ( d - c) ) + c );
 
 	int num2 = (int)( (Math.random() * ( d - c ) ) + c );
