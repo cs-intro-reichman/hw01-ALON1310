@@ -1,14 +1,14 @@
 public class LinearEq {
     public static void main(String[] args) {
-    int a = Integer.parseInt(args[0]) ;
-    int b = Integer.parseInt(args[1]) ;
-    int c = Integer.parseInt(args[2]) ;
+    double a = Integer.parseDouble(args[0]) ;
+    double b = Integer.parseDouble(args[1]) ;
+    double c = Integer.parseDouble(args[2]) ;
     double x = ((c-b)/a); 
 
-  System.out.println(a + "⋅x " + "+ " + b + " = " + c );
+  System.out.println(a + "* x " + "+ " + b + " = " + c );
 
 
-    System.out.println("X = " + x) ;
+    System.out.println("x = " + x) ;
 
     }
 }
