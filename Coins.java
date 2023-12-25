@@ -4,7 +4,7 @@ public class Coins {
     System.out.println("java coins : " + coins) ;
     int quarters = coins/25 ;
     int cent =(coins - (quarters*25)) ; 
-    System.out.println("Use " + quarters + " quarters and " + cents + " cent");
+    System.out.println("Use " + quarters + " quarters and " + cent + " cents");
 }
 
 }
